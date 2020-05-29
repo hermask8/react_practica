@@ -16,6 +16,7 @@ class Conexion extends React.Component
         then(dataJason = this.setState({data: dataJason.result}));
 
         // Mando datos json a api
+        /*
         var data2 = {username: 'example'};
         fetch('https://localhost:44373/weatherforecast', {
             method: 'POST', 
@@ -26,7 +27,7 @@ class Conexion extends React.Component
           }).then(res => res.json())
           .catch(error => console.error('Error:', error))
           .then(response => console.log('Success:', response));
-
+          */
 
     }
     render()
